@@ -1,19 +1,6 @@
-# REST
-describtion: This is  PHP API learn code.
-## Main function
-- User
-  - login
-  - register
-- Article
-  - view
-  - add
-  - edit
-  - del
-  - lst
-  
-## database
-`rest.sql` contain
-* Table user*
-* Table article*
+# RESTApi Test
+describtion: This is SpringBoot learn code.
 
-Update time: 2019/7/8
+- backend: Springboot
+- frontend: Vue2.x
+- database: MySQL8.0
