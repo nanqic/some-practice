@@ -1,0 +1,14 @@
+C:\Users\nanqic\source\repos\26张三3\26张三3\bin\Debug\26张三3.exe.config
+C:\Users\nanqic\source\repos\26张三3\26张三3\bin\Debug\26张三3.exe
+C:\Users\nanqic\source\repos\26张三3\26张三3\bin\Debug\26张三3.pdb
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\_26张三3.Form1.resources
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\_26张三3.Properties.Resources.resources
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\26张三3.csproj.GenerateResource.cache
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\26张三3.csproj.CoreCompileInputs.cache
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\26张三3.exe
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\26张三3.pdb
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\26张三3.csprojAssemblyReference.cache
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\_26张三3.ArraySort.resources
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\_26张三3.MovingLetter.resources
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\_26张三3.DrawPicture.resources
+C:\Users\nanqic\source\repos\26张三3\26张三3\obj\Debug\_26张三3.FontSet.resources

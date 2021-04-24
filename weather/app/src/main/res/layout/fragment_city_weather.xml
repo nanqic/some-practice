@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityWeatherFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg">
+
+        <LinearLayout
+            android:id="@+id/frag_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/frag_tv_currrenttemp"
+                    style="@style/todaytext"
+                    android:text="22℃"
+                    android:textSize="40sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/frag_tv_city"
+                    style="@style/todaytext"
+                    android:layout_below="@+id/frag_tv_currrenttemp"
+                    android:text="北京" />
+
+                <TextView
+                    android:id="@+id/frag_tv_condition"
+                    style="@style/todaytext"
+                    android:layout_below="@+id/frag_tv_city"
+                    android:text="晴" />
+
+                <TextView
+                    android:id="@+id/frag_tv_wind"
+                    style="@style/todaytext"
+                    android:layout_below="@+id/frag_tv_condition"
+                    android:text="东风3-4级" />
+
+                <TextView
+                    android:id="@+id/frag_tv_line01"
+                    android:layout_width="2dp"
+                    android:layout_height="30dp"
+                    android:layout_alignBottom="@+id/frag_tv_wind"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_toRightOf="@+id/frag_tv_wind"
+                    android:background="#000000" />
+
+                <TextView
+                    android:id="@+id/frag_tv_temprange"
+                    style="@style/todaytext"
+                    android:layout_alignBottom="@+id/frag_tv_wind"
+                    android:layout_toRightOf="@+id/frag_tv_line01"
+                    android:text="10-30℃" />
+                <TextView
+                    android:id="@+id/frag_tv_date"
+                    style="@style/todaytext"
+                    android:text="周三"
+                    android:layout_below="@+id/frag_tv_wind"/>
+
+                <ImageView
+                    android:id="@+id/today"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/icon" />
+            </RelativeLayout>
+            <!--            未来三天天气-->
+            <LinearLayout
+                android:id="@+id/frag_center_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/frag_bg"
+                android:orientation="vertical"
+                android:padding="10dp"></LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
