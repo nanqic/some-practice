@@ -1,0 +1,23 @@
+# 配置管理员账号
+admin:
+  user: admin
+  pass: jiuge1..
+server:
+  port: 18080
+
+spring:
+  web:
+    resources:
+      static-locations: classpath:static/,classpath:templates/
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/db_raffle
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: false
+  h2:
+    console:
+      path: /h2
+      enabled: false
